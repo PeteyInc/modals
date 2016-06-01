@@ -1,7 +1,7 @@
 angular.module('app').directive('modalDir', function() {
     return {
         restrict: 'E',
-        templateUrl: '/modalTemp.html',
+        templateUrl: 'modalTemp.html',
         scope: {
             show: '='
         },
@@ -13,6 +13,6 @@ angular.module('app').directive('modalDir', function() {
                 body.style.overflow = '';
             };
         }
-    }
-    
-})
+    };
+
+});
