@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body ng-controller="mainCtrl">
+
+
+    <div id="modal-curtain" ng-show="show" ng-click="closeModal()"></div>
+
+I'm the front page, with no modal.
+<button type="button" ng-click="openModal()">Submit</button>
+
+    <modal-dir show="show" ng-show="show"></modal-dir>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular.js" charset="utf-8"></script>
+    <script src="app.js" charset="utf-8"></script>
+    <script src="mainCtrl.js" charset="utf-8"></script>
+    <script src="modalDir.js" charset="utf-8"></script>
+    <script src="modalSer.js" charset="utf-8"></script>
+  </body>
+</html>
