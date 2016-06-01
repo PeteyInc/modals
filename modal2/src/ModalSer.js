@@ -19,4 +19,4 @@ angular.module('app').service('modalSer', function() {
         curtain.style.visibility = 'hidden';
     };
 
-})
+});

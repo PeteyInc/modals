@@ -7,5 +7,4 @@ angular.module('app').controller('mainCtrl', function($scope, modalSer) {
     $scope.closeModal = function() {
         modalSer.closeModal();
     };
-
-})
+});
